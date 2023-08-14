@@ -60,8 +60,8 @@ public class Example {
     public static void main(String[] args) {
         
         MCPingOptions options = MCPingOptions.builder()
-                .hostname("s10.s100.vip")
-                .port(35677)
+                .hostname("mc.hypixel.net")
+                .port(25565)
                 .build();
         
         try {
