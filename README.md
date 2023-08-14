@@ -6,6 +6,41 @@ MinecraftPingLib
 为什么我不直接在这个库里做好解析?因为不同的人喜欢用不同的JSON库!  
 推荐使用: Gson,HuTool-Json,FastJson等JSON库
 
+## 如何引入此库
+推荐使用 Maven 或者 Gradle 并从Jitpack获取  
+https://jitpack.io/#xiaoACE6716/MinecraftPingLib
+### Maven
+
+```xml
+=<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.xiaoACE6716</groupId>
+    <artifactId>MinecraftPingLib</artifactId>
+    <version>Tag</version>
+</dependency>
+```
+
+### Gradle
+```groovy
+allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+dependencies {
+	        implementation 'com.github.xiaoACE6716:MinecraftPingLib:Tag'
+}	
+```
+
+
+
 ## 返回的 json 格式
 来自: [Wiki](https://wiki.vg/Server_List_Ping#Response)
 
